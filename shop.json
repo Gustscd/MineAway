@@ -1,0 +1,11 @@
+{
+    "buy": {
+        "pickaxe" : 100,
+        "ladder" : 5  
+    },
+    "sell": {
+        "stone" : 10,
+        "coal" : 15,
+        "iron" : 20
+    }
+}
