@@ -130,6 +130,10 @@ document.addEventListener("keypress", event => {
             map[player.y/64][player.x/64] = -1
         }
     }
+    if (event.key == "r")
+    {
+        window.location.reload();
+    }
 });
 
 document.addEventListener("keyup", event => {
