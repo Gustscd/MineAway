@@ -111,7 +111,7 @@ document.addEventListener("keypress", event => {
             checkBreaking(player.x/64, (player.y/64)+1);
         }
     }
-    else if (event.key == "w"){
+    else if (event.key == "w" || event.key == "z"){
         if (map[(player.y/64)-1][player.x/64] <= 0)
         {
             if (map[player.y/64][player.x/64] == -1)
